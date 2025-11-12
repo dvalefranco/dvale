@@ -1,0 +1,678 @@
+/*RESET*/
+body,
+h1,
+h2,
+h3,
+p {
+    font-family: "Elms Sans", sans-serif;
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+
+
+
+/*HEADER*/
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 35px;
+    align-items: center;
+    background: transparent;
+}
+
+.main-nav a {
+    padding-left: 20px;
+    font-size: 15pt;
+}
+
+.logo {
+    font-size: 25pt;
+    letter-spacing: 5px;
+}
+
+.mobile {
+    display: none;
+}
+
+
+
+
+/*HOME*/
+
+
+.bkg-home {
+    background-image: url(../Materiais/bkg_home.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 100vh;
+}
+
+
+.home {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+}
+
+
+.saldos {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 400px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    color: #fff;
+    position: relative;
+}
+
+
+
+.saldos-content {
+    scale: 200%;
+}
+
+.saldos-title {
+    font-size: 50pt;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+
+.saldos-sub {
+    margin-top: 10px;
+    font-size: 20pt;
+    letter-spacing: 2px;
+}
+
+
+.btn {
+    background-color: #933a46;
+    color: #f3ece2;
+    padding: 16px 8px 16px 17px;
+    border-radius: 40px;
+}
+
+.btn i {
+    background-color: #f3ece2;
+    border-radius: 30px;
+    padding: 11px 12px;
+    margin-left: 5px;
+    color: #933a46;
+}
+
+
+.wrapper-infinito {
+    width: 100%;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.infinito {
+    display: inline-block;
+    white-space: nowrap;
+    position: relative;
+    animation: letras 10s linear infinite;
+    color: #933a46;
+}
+
+@keyframes letras {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+/*FAIXA*/
+
+.faixa {
+    background-color: #f3ece2;
+}
+
+.faixa h1 {
+    color: #111630;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.faixa h2 {
+    color: #111630;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.faixa a {
+    color: #111630;
+    text-decoration: underline;
+}
+
+.cat {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+
+
+
+/*SOBRE*/
+
+.sobre {
+    width: 50%;
+    margin: auto;
+}
+
+.sobre h1 {
+    color: black;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.gif {
+    display: block;
+    margin: 0px auto;
+    margin-top: 50px;
+}
+
+.sobre p {
+    color: black;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.weall {
+    display: block;
+    margin: auto;
+    margin-top: 35px;
+}
+
+.pesspraia {
+    display: block;
+    margin: auto;
+    width: 90%;
+    margin-top: 90px;
+}
+
+.lastp {
+    margin-bottom: 70px;
+}
+
+
+
+
+/*OFERTA*/
+
+.oferta {
+    background-color: #f3ece2;
+    padding: 90px;
+}
+
+.conteúdos-oferta {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.presente {
+    scale: 180%;
+    margin-right: 170px;
+}
+
+.bkg-texto-oferta {
+    width: 60%;
+    display: block;
+    justify-items: center;
+}
+
+.texto-oferta {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.oferta h1 {
+    text-align: center;
+    color: #933a46;
+}
+
+.quaofe {
+    text-align: center;
+    color: #933a46;
+    margin-top: 25px;
+}
+
+.delib {
+    text-align: center;
+    color: #933a46;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.vamos-btn {
+    background-color: #933a46;
+    color: #f3ece2;
+    padding: 16px 10px 16px 17px;
+    border-radius: 40px;
+}
+
+.vamos-btn i {
+    background-color: #f3ece2;
+    border-radius: 30px;
+    padding: 11px 12px;
+    margin-left: 5px;
+    color: #933a46;
+}
+
+
+
+
+/*NEWS*/
+
+
+.bkg-news {
+    background-image: url(../Materiais/news.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.news {
+    display: inline-block;
+    background-color: white;
+    padding: 40px 100px;
+    border-radius: 1000px;
+    margin: 60px 0;
+}
+
+.subsc {
+    color: #111630;
+}
+
+.news h1 {
+    color: #111630;
+}
+
+.parafic {
+    color: #111630;
+    margin-top: 25px;
+}
+
+
+.input-element {
+    background: transparent;
+    border: 0;
+    outline: none;
+    color: #f3ece2;
+    margin-left: 10px;
+
+}
+
+.input-box input {
+    padding-left: 10px;
+    text-align: left;
+    background: transparent;
+    color: #f3ece2;
+}
+
+.input-box input::placeholder {
+    color: #f3ece2;
+}
+
+.btn-email {
+    background-color: #933a46;
+    color: #f3ece2;
+    padding: 16px 7px 16px 17px;
+    border-radius: 40px;
+}
+
+.btn-email i {
+    background-color: #f3ece2;
+    border-radius: 30px;
+    padding: 11px 12px;
+    margin-left: 5px;
+    color: #933a46;
+}
+
+.forms-email {
+    background-color: #933a46;
+    padding: 0px 3px;
+    border-radius: 40px;
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.input-box {
+    display: flex;
+    align-content: space-between;
+}
+
+
+/*FOOTER*/
+
+
+.site-footer {
+    background-color: white;
+    color: black;
+}
+
+.site-footer p {
+    color: black;
+}
+
+.site-footer a {
+    color: black;
+    text-decoration: none;
+}
+
+
+.container-footer {
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 25px 0;
+}
+
+.links ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.links {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.contacts h3 {
+    color: black;
+    margin-bottom: 30px;
+}
+
+.links h3 {
+    color: black;
+    margin-top: 25px;
+}
+
+
+
+.footer-bottom {
+    text-align: center;
+    border-top: 0.5px solid rgba(0, 0, 0, 0.2);
+    font-size: 10pt;
+    color: #777;
+    padding: 15px 0;
+}
+
+
+
+
+/*RESPONSIVE*/
+
+@media all and (max-width:480px) {
+
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+
+    /*HOME*/
+
+    .main-nav {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+        text-align: right;
+    }
+
+    .mobile img {
+        width: 25px;
+        height: auto;
+        cursor: pointer;
+    }
+
+    .logo {
+        font-size: 15pt;
+    }
+
+    .saldos {
+        scale: 40%;
+    }
+
+    .infinito {
+        width: 190%;
+        scale: 60%;
+        padding: 0px;
+        max-width: 100vw
+    }
+
+    @keyframes letras {
+        from {
+            left: 00%;
+        }
+
+        to {
+            left: -100%;
+        }
+    }
+
+
+
+
+    /*FAIXA*/
+
+    .faixa h1 {
+        font-size: 20pt;
+    }
+
+    .faixa h2 {
+        font-size: 10pt;
+    }
+
+    .faixa a {
+        font-size: 7pt;
+    }
+
+
+
+
+    /*SOBRE*/
+
+    .sobre {
+        width: 80%;
+        text-align: center;
+    }
+
+    .sobre h1 {
+        margin-top: 50px;
+    }
+
+    .gif {
+        display: inline-block;
+        max-width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .weall {
+        display: inline-block;
+        max-width: 70%;
+        height: auto;
+        margin-top: 15px;
+    }
+
+    .sobre p {
+        font-size: 8pt;
+    }
+
+    .pesspraia {
+        max-width: 100%;
+    }
+
+
+
+
+    /*OFERTA*/
+
+    .oferta {
+        padding: 10px;
+        padding-bottom: 30px;
+    }
+
+    .presente {
+        display: none;
+    }
+
+
+    .texto-oferta {
+        width: 80%;
+    }
+
+    .texto-oferta h1 {
+        font-size: 13.5pt;
+    }
+
+    .texto-oferta p {
+        font-size: 10pt;
+    }
+
+    .vamos-btn {
+        font-size: 7pt;
+        padding: 8px 4px 8px 11px;
+    }
+
+    .vamos-btn i {
+        padding: 5px 6px;
+        margin-left: 5px;
+    }
+
+
+
+
+    /*NEWS*/
+
+    .news {
+        padding: 20px 40px;
+        margin: 60px 10%;
+        border-radius: auto;
+    }
+
+    .news p {
+        font-size: 7pt;
+    }
+
+    .news h1 {
+        font-size: 13.5pt;
+    }
+
+    .parafic {
+        margin-top: 7px;
+    }
+
+    .forms-email {
+        margin-top: 10px;
+        width: 100%;
+        padding: 2px 0px;
+    }
+
+    .input-element {
+        padding: 0;
+    }
+
+    .input-box input {
+        padding-left: 0;
+    }
+
+    .forms-email input,
+    a {
+        font-size: 7pt;
+    }
+
+    .btn-email i {
+        padding: 5px 5px;
+        margin-left: 5px;
+    }
+
+    .btn-email {
+        padding: 0;
+        margin-right: 2px;
+    }
+
+    .input-box {
+        justify-content: space-between;
+    }
+
+    .forme {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+
+
+
+
+    /*FOOTER*/
+
+    .container-footer {
+        grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+    }
+
+    .img-logo {
+        scale: 40%;
+    }
+
+    .links h3 {
+        font-size: 10pt;
+    }
+
+    .links a {
+        font-size: 7pt;
+    }
+
+    .contacts h3 {
+        font-size: 10pt;
+    }
+
+    .contacts p {
+        font-size: 7pt;
+    }
+
+    .footer-bottom small {
+        font-size: 6pt;
+    }
+
+    .footer-bottom {
+        padding-top: 2px;
+        padding-bottom: 4px;
+        border-top: 0.5px solid rgba(0, 0, 0, 0.2);
+    }
+}
